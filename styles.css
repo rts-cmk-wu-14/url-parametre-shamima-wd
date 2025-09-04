@@ -105,16 +105,3 @@ main img {
   border-radius: 8px;
   font-size: 0.9rem;
 }
-
-button {
-  background: #0077cc;
-  color: white;
-  border: none;
-  padding: 0.6rem 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #005fa3;
-}

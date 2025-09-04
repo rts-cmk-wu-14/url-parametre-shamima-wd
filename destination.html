@@ -10,7 +10,7 @@
 <body>
   <header>
     <a href="index.html">← Back</a> |
-    <a href="favorites.html">❤️ Favorites</a>
+    <a href="favorites.html">❤️ Favorit</a>
   </header>
 
   <main id="destination-details"></main>
@@ -59,7 +59,7 @@
           <ul class="facilities">
             ${dest.facilities.map(f => `<li>${f}</li>`).join("")}
           </ul>
-          <button id="fav-detail-btn"></button>
+          
         `;
         document.getElementById("fav-detail-btn").addEventListener("click", () => toggleFavorite(dest.id));
         renderFavorite(dest.id);
